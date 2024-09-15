@@ -1,0 +1,396 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    margin-top: -8px;
+    margin-left: -8px;
+}
+body{
+    
+    margin-right: 0px;
+    position: relative;
+}
+.list1 ul li:hover{
+color: white;
+cursor: pointer;
+}
+.header{
+    background-image: url(../images/drew-coffman-1872.jpg);
+    height: 800px;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    position: relative;
+}
+.cover{
+    background-color: rgba(12, 11, 11, 0.546);
+    width: 100%;
+    height: 100%;
+}
+.container nav{
+    background-color: rgba(12, 11, 11, 0.824);
+        width: 100%;
+        color: #cdc1c1;
+        margin: auto;
+        padding: 0px;
+        position: fixed; 
+}
+.list1{
+    display: block;
+    float: right;
+    padding: 10px;
+    width: fit-content;
+}
+.list1 ul {
+    width: 100%;
+}
+.header ul li{
+    display: inline;
+    padding: 5px 25px;
+}
+
+.logo{
+    margin-left:0px;
+    width: 30%;
+    float: left;
+}
+
+.logo img{
+width: 175px;
+margin-left: 0px;
+padding:5px 15px 15px 0px;
+vertical-align: middle;
+}
+.clear{
+    clear: both;
+}
+.hContent{
+    text-align: center;
+    margin-top: 0%;
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+.hContent h1{
+    font-size: 65px;
+    margin-top: 10px;
+}
+.hContent p{
+    margin-top: 0px;
+    font-size: 20px;
+}
+.hContent button{
+    font-family: sans-serif;
+    width: 130px;
+    height: 60px;
+    font-weight: bold;
+    margin:5px ;
+    padding: 0px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: white;
+    padding: 10px;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+.b1{
+    background-color: rgb(142, 119, 84);;
+    border-color: transparent ;
+}
+.b2{
+    background-color: transparent;
+    border:1px solid white;
+}
+.bodyA{
+    margin: 100px 0px 100px 150px;
+    display: flex;
+}
+.bodyA .img img{
+    width: 500px;
+    height: 500px;
+}
+.bodyA .text{
+margin-left: 10%;
+margin-top: 5%;
+width: 550px;
+line-height: 2;
+}
+.bodyA .title{
+    font-family: Alegreya;
+    font-size: 32px;
+}
+.list{
+    color: #686868;
+}
+.list ul{
+    margin:0px;
+    padding: 0px;
+    font-family: sans-serif;
+    line-height: 200%;
+    list-style-position: inside;
+    list-style: none;
+}
+.list ul li{
+   padding: 0px 0px 6% 0px;
+   display: flex;
+}
+ul {
+    list-style: none;
+}
+
+
+.list ul li i:not(.fa-users){
+    font-size: 18px;
+    margin-right: 10px;
+    background-color: #8e7754;
+    color: white;
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    padding:10px 0px 0px 9px;
+}
+
+.fa-users{
+    font-size: 18px;
+    margin-right: 10px;
+    background-color: #8e7754;
+    color: white;
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    padding:10px 0px 0px 7px; 
+}
+.Cleft ul li i{
+    font-size: 18px;
+    margin-right: 10px;
+    background-color: #8e7754;
+    color: white;
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    padding:7px 0px 0px 8px;
+}
+.bodyB{
+    background-color: #eee;
+    display: flex;
+    height:600px;
+    width: 100%;
+    margin:1px auto;
+}
+.bodyB .title{
+    margin:100px 100px;
+    width:40%;
+}
+.bodyB .title p{
+    line-height: 1.6;
+   color: #686868;
+   font-size: 20px;
+   width: 100%;
+}
+
+.imgK{
+    margin: 0px;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    
+}
+.kitchen{
+    width: 80%;
+    height: 90%;
+    margin: auto;
+}
+.end{
+    width: 100%;
+    text-align: center;
+}
+
+.end .title{
+    width: 98%;
+    margin: 5% 0px;
+    text-align: center;
+}
+.end .title p{
+    color: #686868;
+}
+.imge{
+    display: inline-block;
+    width: 400px;
+} 
+.imge p{
+    color: #686868;  
+}
+.text{
+    width: 300px;
+}
+.imge img{
+    width: 400px;
+    height: 300px;
+    padding: 0px 10px;
+    margin: 50px;
+}
+.category div{
+margin: auto;
+}
+.category{
+    width: 100%;
+    text-align: center;
+} 
+.contact{
+     font-family: "Alegreya Sans";
+    background-color: #eee;
+    margin-right:1px;
+    width: 100%;
+    padding: 0px;
+    height: 600px;
+    margin-top: 50px;
+    line-height:2;
+}
+.contact p , .Cleft .cap{
+    color: #686868;
+}
+.inside{
+    width: 80%;
+    height: 95%;
+    margin: auto;
+}
+.contact .Cleft{
+    float: left;
+    padding :50px;
+    margin: 50px auto;
+    width: 60%;
+}
+.Cleft ul{
+    color:#686868 ;
+    list-style-position: inside;
+    padding: 0px;
+}
+.Cleft ul li{
+    padding-top: 15px;
+}
+ .contact .Cright{
+     float: right;
+    width: 25%;
+ }
+ .contact .Cright{
+    width: 40%;
+ }
+ iframe{
+    height: 95%;
+    margin-top: 50px;
+    width: 90%;
+    height:90% ;
+    float: right;
+ }
+ .about{
+    width: 100%;
+    height: 600px;
+    background-color: #353330;
+}
+.inner{
+    width: 90%;
+    height: 80%;
+    margin: auto;
+    font-family: "Alegreya Sans";
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    color: white;
+    gap: 80px;
+}
+.inner .details{
+    background-image: url(../images/contact-details-map.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.inner p ,a{
+   color: #969696;;
+}
+hr{
+    height: 0.5px;
+    background-color: #9696963b;
+    border: none;
+}
+.inner a{
+   text-decoration: none;
+}
+.inner{
+line-height: 2.2;
+}
+
+.finish
+{
+    font-family: "Alegreya Sans";
+    width: 100%;
+    height: 400px;
+    background-color: #151515;
+    margin-top: 2%;
+    color: #969696;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.fa-brands{
+   color: #eee;
+   font-size: 30px;
+   background-color: transparent;
+   padding: 5px;
+}
+.fa-brands:hover{
+    color: #0275d8;
+}
+aside{
+    width: 300px;
+    height: 500px;
+    position: fixed;
+    top: 20%;
+    right: 0;
+    z-index: 999;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+.eye{
+    position: fixed;
+    top: 20%;
+    right: -26;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.eye button{
+    border: transparent;
+    width:50px;
+    height: 50px;
+    background-color: #eee;
+}
+.eye button:hover{
+/* left: 274; */
+background-color: #0275d8;
+}
+aside button{
+    background-color: rgb(250, 147, 21);
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    text-align: center;
+    outline:transparent;
+    border-color: transparent;
+    position: absolute;
+    top: 20%;
+}
+aside::after{
+}
